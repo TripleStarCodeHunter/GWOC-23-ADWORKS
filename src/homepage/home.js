@@ -1,4 +1,4 @@
-import Landing from "./landingscreen";
+import Landing from './landingscreen';
 const Home = () => {
     return (
         <Landing/>

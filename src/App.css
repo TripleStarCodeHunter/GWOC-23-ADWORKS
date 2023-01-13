@@ -1,0 +1,28 @@
+.navbar{
+  height:10vh;
+  background-color: #4989B6;
+  font-size: 18.5px;
+  position: sticky;
+}
+.logo{
+  float:left;
+  margin:auto;
+  width:55vw;
+  height:10vh;
+  position: relative;
+  color:white;
+}
+.menu{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 5vw;
+  height:10vh;
+}
+.menu>div>a{
+  color:white;
+  text-decoration: none;
+}
+body{
+  margin:0;
+}
