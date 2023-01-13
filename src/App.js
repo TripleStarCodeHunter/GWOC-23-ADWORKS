@@ -1,13 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from './home';
-import Navbar from './navbar';
+import logo from "./logo.svg";
+import "./App.css";
+import Home from "./home";
+import Navbar from "./navbar";
+import Services from "./services/Services";
 function App() {
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/>
       HELLO WORLD
-      <Home/>
+      <Home/> */}
+      <Services />
     </div>
   );
 }
