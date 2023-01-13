@@ -1,8 +1,14 @@
 import React from "react";
 import "./Services.css";
 import ServiceCard from "./ServiceCard";
+import Gallery from "react-photo-gallery";
+import photos from "./photos";
 
 const Services = () => {
+  console.log(photos);
+
+  const BasicRows = () => <Gallery photos={photos} />;
+
   return (
     <div className="services-page">
       {/* Header Section */}
@@ -17,12 +23,23 @@ const Services = () => {
           </div>
         </div>
       </section>
+
       {/* Services Section */}
       <section className="container">
         <ServiceCard />
         <ServiceCard />
         <ServiceCard />
         <ServiceCard />
+      </section>
+
+      {/* Projects Section */}
+      <section className="projects">
+        <div className="container">
+          <div className="project-main">
+            <h1>Our Latest Works</h1>
+          </div>
+          <BasicRows />
+        </div>
       </section>
     </div>
   );
