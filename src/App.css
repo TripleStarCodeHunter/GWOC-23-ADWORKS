@@ -1,5 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+.navbar{
+  height:10vh;
+  background-color: #AD5273;
+  font-size: 19px;
+  /* position: sticky;
+  top:0px; */
+  font-family:"Karla";
+}
+.logo{
+  float:left;
+  margin:auto;
+  width:55vw;
+  height:10vh;
+  position: relative;
+  color:white;
+}
+.menu{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 5vw;
+  height:10vh;
+}
+.menu>div>a{
+  color:white;
+  text-decoration: none;
 }
