@@ -4,6 +4,7 @@ import ServiceCard from "./ServiceCard";
 import Gallery from "react-photo-gallery";
 import photos from "./photos";
 import Accordion from "./Accordion";
+import Testimonial from "./Testimonial";
 
 const Services = () => {
   console.log(photos);
@@ -49,6 +50,11 @@ const Services = () => {
           <h1>Frequently Asked Questions</h1>
           <Accordion />
         </div>
+      </section>
+
+      {/* Testimonials */}
+      <section className="testimonials">
+        <Testimonial />
       </section>
     </div>
   );
