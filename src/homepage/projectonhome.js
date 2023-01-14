@@ -25,13 +25,11 @@ const Project = () => {
         setProject(post3);
         setBack3('white');
         setBack2('transparent');
-        setBack1('transparent');
+        setBack1('trans');
     }
 
     return (
-        <div>
         <div style={{ backgroundImage: `url(${project})`,backgroundRepeat:'no-repeat',backgroundSize:'100% 100%'}} class="projectscreen">
-            </div>
             <div className="adcont">
                 <div onMouseEnter={adClick1} class="ad ad1" style={{backgroundColor:back1}}>
 
@@ -43,7 +41,7 @@ const Project = () => {
 
                 </div>
             </div>
-            </div>
+        </div>
     );
 }
 export default Project;
