@@ -3,6 +3,7 @@ import "./Services.css";
 import ServiceCard from "./ServiceCard";
 import Gallery from "react-photo-gallery";
 import photos from "./photos";
+import Accordion from "./Accordion";
 
 const Services = () => {
   console.log(photos);
@@ -39,6 +40,14 @@ const Services = () => {
             <h1>Our Latest Works</h1>
           </div>
           <BasicRows />
+        </div>
+      </section>
+
+      {/* Frequently Asked Questions */}
+      <section className="faqs">
+        <div className="container">
+          <h1>Frequently Asked Questions</h1>
+          <Accordion />
         </div>
       </section>
     </div>

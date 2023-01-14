@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
 
 :root {
-  --primary: #AD5273;
-  --primary-light: #F9F2FA;
+  --primary: #ad5273;
+  --primary-light: #f9f2fa;
   --black: #0f0f0f;
+  --white: #fff;
 }
 
 .flex {
@@ -69,16 +70,25 @@ ul {
   justify-content: center;
 }
 
-h1 {
-  font-weight: 500;
+h1,
+h2,
+h3 {
   font-size: 32px;
+  font-weight: 500;
   line-height: 39px;
   letter-spacing: -0.015em;
   color: var(--primary);
+}
+
+h1 {
   margin-bottom: 20px;
 }
 
-.service-content > p {
+h2 {
+  font-size: 24px;
+}
+
+p {
   font-weight: 400;
   font-size: 20px;
   line-height: 141.9%;
@@ -109,4 +119,45 @@ h1 {
 .service-image {
   width: 100%;
   object-fit: cover;
+}
+
+/* Frequently Asked Questions */
+
+.faqs > .container {
+  background-color: var(--white);
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accordion {
+  width: 800px;
+}
+
+.item {
+  background-color: var(--primary-light);
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.title {
+  color: var(--primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.content {
+  color: var(--black);
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.content.show {
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
 }
