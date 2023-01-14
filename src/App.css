@@ -10,6 +10,7 @@
   font-size: 19px;
   position: sticky;
   top:0px;
+  z-index: 2;
   font-family:"Karla";
 }
 .logo{
