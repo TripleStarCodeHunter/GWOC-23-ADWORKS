@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import "react-slideshow-image/dist/styles.css";
+
 .left{
     font-size: 40px;
     width:40vw;

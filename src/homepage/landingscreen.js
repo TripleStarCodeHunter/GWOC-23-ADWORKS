@@ -7,7 +7,7 @@ const delay = 2500;
 function Slideshow() {
   const [index, setIndex] = useState(0);
   const timeoutRef = useRef(null);
-    
+
   function resetTimeout() {
     if (timeoutRef.current) {
       clearTimeout(timeoutRef.current);
@@ -41,7 +41,7 @@ function Slideshow() {
             key={index}
             style={{ backgroundColor }}
           >
-            
+            HELLO
           </div>
         ))}
       </div>
