@@ -1,8 +1,15 @@
 import { useEffect,useState, useRef } from "react";
 
-const Landing = () => {
-    const colors = ["#0088FE", "#00C49F", "#FFBB28"];
-const delay = 2500;
+    const Landing = () => {
+    const images = ["https://cdn.pixabay.com/photo/2019/09/15/12/09/network-4478141__340.jpg", "https://cdn.pixabay.com/photo/2016/07/19/09/03/digital-marketing-1527799__340.png", "https://cdn.pixabay.com/photo/2017/06/12/03/33/seo-2394237__340.jpg"];
+    const delay = 2500;
+    const text=["USING ADVANCED AI TO CATER ALL YOUR MARKETING NEEDS",
+    "Hello World",
+    "READY TO TAKE YOUR BUSINESS TO THE NEXT LEVEL? CONTACT US"];
+       
+const renderList = text.map((item, index) => 
+<div key={index}>{item}</div>
+);
 
 function Slideshow() {
   const [index, setIndex] = useState(0);
@@ -19,7 +26,7 @@ function Slideshow() {
     timeoutRef.current = setTimeout(
       () =>
         setIndex((prevIndex) =>
-          prevIndex === colors.length - 1 ? 0 : prevIndex + 1
+          prevIndex === images.length - 1 ? 0 : prevIndex + 1
         ),
       delay
     );
@@ -35,19 +42,19 @@ function Slideshow() {
         className="slideshowSlider"
         style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
       >
-        {colors.map((backgroundColor, index) => (
+        {images.map((x, index) => (
           <div
             className="slide"
             key={index}
-            style={{ backgroundColor }}
+            style={{ backgroundImage:`url(${x})` }}
           >
-            HELLO
+            <div class="slidetext">{text[index]}</div>
           </div>
         ))}
       </div>
 
       <div className="slideshowDots">
-        {colors.map((_, idx) => (
+        {images.map((_, idx) => (
           <div
             key={idx}
             className={`slideshowDot${index === idx ? " active" : ""}`}
@@ -61,7 +68,9 @@ function Slideshow() {
   );
 }
     return (
-        <Slideshow/>
+        <div>
+                  <Slideshow/>
+        </div>
     );
 }
 export default Landing;
