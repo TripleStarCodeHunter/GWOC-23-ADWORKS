@@ -5,13 +5,13 @@ import post4 from '../assets/Post10.png';
 
 const Project = () => {
     return (
-        <div>
+        <div >
             <div class="contpro">
                 <div class="left">
                     <h4 style={{fontSize:'32px'}}>Our Ads</h4><br/>
                 We guide game-changing companies, across platforms & places, 
                 through agile design & digital experience. We make waves<br/>
-                <a href="" class="link">Learn More</a>
+                <a href="" class="link">Explore All Ads</a>
                 </div>
                 <div class="right">
                     <div ><img class="box" src={post1} alt=""/></div>

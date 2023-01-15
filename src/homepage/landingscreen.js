@@ -34,8 +34,8 @@ function Slideshow() {
 
   //Styles for the three slides
   const styles=[{color:"white"},
-  {color:"pink"},
-  {color:"green"}];
+  {color:"black"},
+  {color:"black"}];
 
 
   return (
@@ -53,7 +53,7 @@ function Slideshow() {
             style={{backgroundImage:`url(${x})`}}
           >
             <div class="slidetext" style={styles[index]}>{text[index]}<br/>
-            {index==2 && <a href="" style={{color:"black",textDecoration:"none",width:"100px",backgroundColor:"pink",fontSize:"30px",borderRadius:"5px",padding:"10px 20px"}}>Contact Us</a>}
+            {index==2 && <a href="" style={{color:"white",textDecoration:"none",width:"100px",backgroundColor:"#8447E9",fontSize:"30px",borderRadius:"5px",padding:"10px 20px"}}>Contact Us</a>}
             </div>
           </div>
         ))}
@@ -81,12 +81,31 @@ function Slideshow() {
               <div style={{marginTop:"2vw",marginLeft:"45.3vw",fontSize:"20px"}}>WELCOME TO </div>
               <div style={{marginLeft:"36.5vw",fontSize:"80px"}}>ADWORKS</div>
               <div style={{marginLeft:"40.35vw",fontSize:"40px"}}>AD THAT WORKS</div>
+              <img src="https://cdn.pixabay.com/photo/2016/10/09/08/32/digital-marketing-1725340_960_720.jpg"/>
+
               <div className="brief"><br/>
-              <div style={{marginTop:"5vw",fontSize:"20px"}}>WHY ADWORKS?</div>
-              <div></div>
+                <div style={{marginTop:"5vw",fontSize:"20px",color:"#8447E9"}}><strong>WHY ADWORKS?</strong></div>
+                  <div style={{fontSize:"30px",marginTop:"2.5vw"}}>Adworks is your One Stop Solution for all your advertisement needs. 
+                  Through the use of AI, and our expert team of designers and marketers, we make sure your brand has a strong and positive social media presence
+                  </div>
+              </div>
+              <div className="brief">
+                <div style={{marginTop:"5vw",fontSize:"20px",color:"#8447E9"}}><strong>OUR SERVICES</strong></div>
+                <div className="servicesintro">
+                  We mainly focus on professional social media management and running digital ads on platforms such as Facebook, Instagram And Google. Everything from scratch from content ideation , designing and final reach analysis is done By our in-house team of experts. 
+                  <br/><br/>
+                  <strong>We specialize in : </strong><br/>
+                  <div style={{marginLeft:"2.5vw",marginTop:"2vw"}}>
+                    <ul>
+                      <li><span style={{color:"#8447E9"}}>Content Design : </span> We think about the design behind the content with a focus on how to serve the audience the information they need, when they need it.</li>
+                      <br/><li><span style={{color:"#8447E9"}}>Copy Writing : </span></li>
+                      <br/><li><span style={{color:"#8447E9"}}>Engagement : </span></li>
+                      <br/><li><span style={{color:"#8447E9"}}>Hashtag Research : </span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-                  
         </div>
     );
 }
