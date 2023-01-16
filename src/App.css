@@ -8,8 +8,9 @@
   height:10vh;
   background-color: #AD5273;
   font-size: 19px;
-  /* position: sticky;
-  top:0px; */
+  position: sticky;
+  top:0px;
+  z-index: 2;
   font-family:"Karla";
 }
 .logo{
