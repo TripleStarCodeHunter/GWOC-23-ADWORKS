@@ -88,16 +88,28 @@
   .slideshowDot.active {
     background-color: #6a0dad;
   }
+
+  /*Slide's text*/
 .slidetext{
     font-size: 50px;
     margin-left: 40px;
     margin-top: 40px;
     height:30vw;
-    width:30vw;
+    width:50%;
     white-space:break-spaces;
     overflow: hidden; 
     padding :20px;
     font-family: Montserrat;
+    border: 2px solid black;
+}
+.slide1{
+  color:white;
+}
+.slide2{
+
+}
+.slide3{
+
 }
 .homecont{
   width:100%;
@@ -106,7 +118,7 @@
 .intro{
   background-color: #f9f2fa;
   font-family: Montserrat;
-  height:95vw;
+  height:120vw;
   margin:auto;
   position: relative;
 }
@@ -114,6 +126,7 @@
   margin-left:10vw;
   width:50vw;
   height: 25vw;
+
 }
 
 .intro>img{
@@ -148,8 +161,32 @@
 a:hover{
   color:lightblue;
 }
+
+/*Services flex cards*/
 .servicesintro{
-  font-size: 25px;
+  font-size: 24px;
   width:80vw;
   margin-top:2.5vw;
+}
+.services-flex-1{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+.services-flex-item{
+  
+  width:20vw;
+  height:25vw;
+  text-align: center;
+  font-size: 20px;
+}
+.services-card-title{
+  color:#8447E9;
+  margin-bottom:15px;
+}
+.services-card-image{
+  height:50%;
+  width:70%;
+  margin-bottom:15px;
 }
