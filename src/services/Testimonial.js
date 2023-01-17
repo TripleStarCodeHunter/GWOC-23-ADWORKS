@@ -35,7 +35,7 @@ const Testimonial = () => {
   return (
     <div
       className="testimonial"
-      style={{ display: "flex", justifyContent: "center", marginTop: 50 }}
+      style={{ display: "flex", justifyContent: "center", margin: 50 }}
     >
       <div style={{ width: "50%", textAlign: "center" }}>
         <h1 style={{ marginBottom: 20 }}>Testimonials</h1>
@@ -83,8 +83,8 @@ const Card = ({ img }) => {
         fringilla massa. Etiam hendrerit dolor eget rutrum
       </p>
       <p style={{ fontStyle: "italic", marginTop: 25 }}>
-        <span style={{ fontWeight: 500, color: "green" }}>PAULA WILSON</span> ,
-        Media Analyst
+        <span style={{ fontWeight: 500, color: "#8447e9" }}>PAULA WILSON</span>{" "}
+        , Media Analyst
       </p>
     </div>
   );
