@@ -94,7 +94,7 @@
     font-size: 3.255vw;
     margin-left: 2.604vw;
     margin-top: 2.604vw;
-    height:30vw;
+    height:29vw;
     width:50%;
     white-space:break-spaces;
     overflow: hidden; 
@@ -105,8 +105,9 @@
 .slide1{
   color:white;
   float:right;
+  
   text-shadow: 0.13vw 0.13vw 0.521vw black;
-  text-align: center;
+  text-align: right;
   margin-top: 6.510vw;
 }
 .slide2{
