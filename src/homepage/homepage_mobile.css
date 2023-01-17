@@ -3,4 +3,18 @@
       background-color: lightblue;
       text-align: center;
     }
+    .menu{
+      display:none;
+    }
+    .logo{
+      
+      width:auto;
+    }
+    .header-navbar{
+      display:flex;
+      justify-content: center;
+      
+    }
   }
+ 
+  

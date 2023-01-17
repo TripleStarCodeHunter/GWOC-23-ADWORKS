@@ -19,7 +19,7 @@ const Landing = () => {
   
   const text=[<div className="slidetext slide1">USING<br/> ADVANCED AI <br/> TO CATER<br/> ALL YOUR<br/> MARKETING NEEDS</div>,
   <div className="slidetext slide2">FROM START UPS<br/> TO LARGE COMPANIES, <br/>WE'VE GOT EVERYTHING COVERED</div>,
-  <div className="slidetext slide3">READY TO TAKE <br/>YOUR BUSINESS <br/>TO THE NEXT<br/> LEVEL?<br/><br/>
+  <div className="slidetext slide3">READY TO TAKE <br/>YOUR BUSINESS <br/>TO THE NEXT<br/> LEVEL?<br/>
   <a href="" style={{color:"white",textDecoration:"none",width:"6.51vw",backgroundColor:"#8447E9",fontSize:"1.953vw",borderRadius:"5px",padding:"0.651vw 1.302vw"}}>Contact Us</a></div>
   ];
 
