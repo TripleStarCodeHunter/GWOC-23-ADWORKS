@@ -1,7 +1,11 @@
 # GWOC-23-ADWORKS
 
-This is a website made by  
-  
+GOOGLE WINTER OF CODE, GDSC, SVNIT  
+
+Team name : Tempest
+
+Team members :  
+   
 o Bilal Malik o  
 o Vinayaka Iyer o  
 o Zenin D'Silva o  
