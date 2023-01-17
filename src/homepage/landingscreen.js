@@ -1,16 +1,27 @@
 import { purple } from "@material-ui/core/colors";
 import { useEffect,useState, useRef } from "react";
 import Intro from './intro';
-  const Landing = () => {
-  const images = ["https://cdn.pixabay.com/photo/2019/09/15/12/09/network-4478141__340.jpg", "https://cdn.pixabay.com/photo/2016/07/19/09/03/digital-marketing-1527799__340.png", "https://cdn.pixabay.com/photo/2017/06/12/03/33/seo-2394237__340.jpg"];
+const Landing = () => {
+
+  //Images for each slide
+  const images = ["https://knowledge.wharton.upenn.edu/wp-content/uploads/2020/05/Women-in-data-science.jpg",
+  "https://sloanreview.mit.edu/wp-content/uploads/2019/03/GEN-Keller-Modern-Marketing-1200x627-1200x627.jpg",
+  "    https://imageio.forbes.com/specials-images/imageserve/980428134/0x0.jpg?format=jpg&width=1200"];
+
+  /*
+    Extra images links :
+    https://cdn.pixabay.com/photo/2022/05/18/07/07/laptop-7204537__340.jpg
+    https://imageio.forbes.com/specials-images/imageserve/980428134/0x0.jpg?format=jpg&width=1200
+  */ 
   const delay = 3000;
 
-  //text to display on slides
+  //text divs to display on slides
   
-  const text=[<div className="slidetext slide1">USING ADVANCED AI <br/> TO CATER ALL YOUR<br/> MARKETING NEEDS</div>,
-  <div className="slidetext slide2">FROM START UPS<br/> TO BIG COMPANIES, <br/>WE HAVE GOT EVERYTHING COVERED</div>,
-  <div className="slidetext slide3">READY TO TAKE YOUR BUSINESS TO THE NEXT LEVEL?<br/><a href="" style={{color:"white",textDecoration:"none",width:"100px",backgroundColor:"#8447E9",fontSize:"30px",borderRadius:"5px",padding:"10px 20px"}}>Contact Us</a></div>
-];
+  const text=[<div className="slidetext slide1">USING<br/> ADVANCED AI <br/> TO CATER<br/> ALL YOUR<br/> MARKETING NEEDS</div>,
+  <div className="slidetext slide2">FROM START UPS<br/> TO LARGE COMPANIES, <br/>WE'VE GOT EVERYTHING COVERED</div>,
+  <div className="slidetext slide3">READY TO TAKE <br/>YOUR BUSINESS <br/>TO THE NEXT<br/> LEVEL?<br/><br/>
+  <a href="" style={{color:"white",textDecoration:"none",width:"6.51vw",backgroundColor:"#8447E9",fontSize:"1.953vw",borderRadius:"5px",padding:"0.651vw 1.302vw"}}>Contact Us</a></div>
+  ];
 
   function Slideshow() {
   const [index, setIndex] = useState(0);
