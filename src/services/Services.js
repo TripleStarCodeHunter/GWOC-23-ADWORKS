@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Services.css";
 import ServiceCard from "./ServiceCard";
 import Gallery from "react-photo-gallery";
 import photos from "./photos";
 import Accordion from "./Accordion";
 import Testimonial from "./Testimonial";
+import ServiceCardInvert from "./ServiceCardInvert";
+import Tools from "./Tools";
 
 const Services = () => {
   console.log(photos);
@@ -14,7 +16,7 @@ const Services = () => {
   return (
     <div className="services-page">
       {/* Header Section */}
-      <section className="services-header">
+      <section className="services-header bg-animation">
         <div className="container">
           <div className="services-headertext">
             <h3>Our Services</h3>
@@ -29,20 +31,23 @@ const Services = () => {
       {/* Services Section */}
       <section className="container">
         <ServiceCard />
+        <ServiceCardInvert />
         <ServiceCard />
-        <ServiceCard />
-        <ServiceCard />
+        <ServiceCardInvert />
       </section>
 
       {/* Projects Section */}
-      <section className="projects">
+      {/* <section className="projects">
         <div className="container">
           <div className="project-main">
             <h1>Our Latest Works</h1>
           </div>
           <BasicRows />
         </div>
-      </section>
+      </section> */}
+
+      {/* Tools Section */}
+      <Tools />
 
       {/* Frequently Asked Questions */}
       <section className="faqs">
