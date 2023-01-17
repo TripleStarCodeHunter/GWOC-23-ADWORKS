@@ -3,17 +3,22 @@
       background-color: lightblue;
       text-align: center;
     }
-    .menu{
-      display:none;
+    .services-flex-item{
+      width:80%;
+      height:80vw;
+      font-size: 16px;
     }
-    .logo{
-      
-      width:auto;
+
+    .intro{
+      height: 500vw;
+      text-align: center;
     }
-    .header-navbar{
-      display:flex;
-      justify-content: center;
-      
+    
+    .brief>div{
+      font-size: 15px;
+    }
+    .services-flex-1{
+      flex-direction: column;
     }
   }
  

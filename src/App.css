@@ -42,4 +42,16 @@
 .menu>div>a:hover{
   color:yellow;
 }
-
+@media only screen and (max-width: 600px) {
+  .menu{
+    display:none;
+  }
+  .logo{
+    
+    width:auto;
+  }
+  .header-navbar{
+    display:flex;
+    justify-content: center; 
+  }
+}

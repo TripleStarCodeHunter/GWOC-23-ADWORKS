@@ -4,9 +4,11 @@ const Intro = ()=>{
     return (
         <div className="intro">
               <br/>
-              <div style={{marginTop:"2vw",marginLeft:"45.3vw",fontSize:"1.302vw"}}>WELCOME TO </div>
-              <div style={{marginLeft:"36.5vw",fontSize:"5.208vw"}}>ADWORKS</div>
-              <div style={{marginLeft:"40.35vw",fontSize:"2.604vw"}}>AD THAT WORKS</div>
+              <div style={{textAlign:"center"}}>
+                <div style={{marginTop:"2vw",fontSize:"1.302vw"}}>WELCOME TO </div>
+                <div style={{fontSize:"5.208vw"}}>ADWORKS</div>
+                <div style={{fontSize:"2.604vw"}}>AD THAT WORKS</div>
+              </div>
               <img src="https://cdn.pixabay.com/photo/2016/10/09/08/32/digital-marketing-1725340_960_720.jpg"/>
 
               <div className="brief"><br/>

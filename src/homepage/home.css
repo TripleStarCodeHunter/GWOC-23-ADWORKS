@@ -102,7 +102,7 @@
     font-family: Montserrat;
 }
 /*Styles for text of each slide*/
-.slide1{
+.slide2{
   color:white;
   float:right;
   
@@ -110,7 +110,7 @@
   text-align: right;
   margin-top: 6.510vw;
 }
-.slide2{
+.slide1{
   color:black;
   
   /* text-shadow: 2px 2px 8px white;
@@ -178,7 +178,7 @@
   border: none;
 }
 a:hover{
-  color:lightblue;
+  color:yellow;
 }
 
 /*Services flex cards*/
