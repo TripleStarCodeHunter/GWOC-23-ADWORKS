@@ -1,16 +1,15 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Home from "./homepage/home";
-import Navbar from "./navbar";
-import Services from "./services/Services";
-import Footer from "./footer";
+import React from "react";
+import Footer from "../src/footer";
+import ContactIs from "./contact-us/contact-us";
+
 function App() {
   return (
     <div>
-      <Navbar />
+      {/*<Navbar />
       <Home/> 
-      {/* <Services /> */}
-      <Footer />
+       <Services /> 
+       <Footer />*/}
+       <ContactIs />
     </div>
   );
 }

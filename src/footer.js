@@ -4,23 +4,23 @@ import "./footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="container">
-        <div className="row">
-          <div className="footer-col-1">
-            <h3>AdWorks</h3>
-            <p>Ad's That Matter.</p>
-            <p>Ad's That Make A Difference.</p>
-            <p>An Ad That Works.</p>
-          </div>
-        </div>
-        <div className="footer-col-2">
+      <div className="containerF">
+        <div className="rowF">
+            <div className="footer-col-1">
+                <h3>AdWorks</h3>
+                <p>Ad's That Matter.</p>
+                <p>Ad's That Make A Difference.</p>
+                <p>An Ad That Works.</p>
+            </div>
+        
+         <div className="footer-col-2">
           add logo here
           <p>
             Our purpose is to PUT SOMETHING FROM ABOUT US PLEASE JUST LEAVE IT
             LIKE THIS.
           </p>
-        </div>
-        <div className="footer-col-3">
+         </div>
+         <div className="footer-col-3">
           <h3>Useful Links</h3>
           <ul>
             <div>
@@ -36,8 +36,8 @@ const Footer = () => {
               <a href="">CONTACT US</a>
             </div>
           </ul>
-        </div>
-        <div className="footer-col-4">
+         </div>
+         <div className="footer-col-4">
           <h3>Follow Us</h3>
           <ul>
             <div>
@@ -55,6 +55,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+    </div>
     </div>
   );
 };
