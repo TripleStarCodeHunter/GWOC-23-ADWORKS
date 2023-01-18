@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-
+.whytext{
+  font-size:1.758vw;
+  margin-top:2.5vw;
+}
+.learnmore{
+  text-decoration:none;
+  font-size:1.302vw;
+  margin-top:2vw
+}
+.learnmore:hover{
+  color:#42e386;
+}
 .project-left{
     font-size: 2.604vw;
     width:40vw;
@@ -40,6 +51,9 @@
     font-size:1.302vw;
     text-decoration:none;
     color:white;
+}
+.link:hover{
+  color:#42e386;
 }
 /* Slideshow */
 
@@ -133,7 +147,7 @@
 }
 /*Container of the entire intro component*/
 .intro{
-  background-color: #f9f2fa;
+  background-color: white;
   font-family: Montserrat;
   height:120vw;
   margin:auto;
@@ -154,7 +168,20 @@
   height: 25vw;
 
 }
-
+.slide3button{
+  text-shadow: none;
+  color:white;
+  text-decoration:none;
+  width:6.51vw;
+  background-color:#8447E9;
+  font-size:1.953vw;
+  border-radius:5px;
+  padding:0.651vw 1.302vw;
+  box-shadow: 2px 2px 8px black;
+}
+.slide3button:hover{
+  color: #42e386;
+}
 
 .project-end{
   display: flex;
@@ -177,10 +204,15 @@
   padding: 1.302vw 3.190vw;
   border: none;
 }
-a:hover{
-  color:yellow;
+.project-end>a:hover{
+  color:#42e386;
 }
-
+a:hover{
+  color:#42e386;
+}
+.imgformobile{
+  display:none;
+}
 /*Services flex cards*/
 .servicesintro{
   font-size: 1.563vw;
@@ -194,7 +226,11 @@ a:hover{
   
 }
 .services-flex-item{
-  
+  /* box-shadow: 2px 2px 18px rgba(0,0,0,0.5);
+  border-radius: 7px;
+  background-color: rgba(255,255,255,0.1);
+  padding: 10px; */
+
   width:20vw;
   height:25vw;
   text-align: center;

@@ -3,7 +3,7 @@ const Navbar = () => {
     <div className="header-navbar">
       <div className="logo">
         <div style={{ position: "absolute", left: "5%", top: "35%" }}>
-          ADWORKS
+        <strong style={{color:"#42e386"}}>AD</strong><span><ins style={{textDecorationColor:"#42e386"}}>Works</ins></span>
         </div>
       </div>
       <div className="menu">
