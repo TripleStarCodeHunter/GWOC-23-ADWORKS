@@ -49,11 +49,13 @@ const Tools = () => {
                 <div className="hover-content" />
                 <i className="flaticon-web user" />
                 <h5 className="title">
-                  <a href="#">User Friendly dashboard &amp; Cool Interface.</a>
+                  <a href="#">Chat GPT</a>
                 </h5>
                 <p>
-                  Lorem ipsum dolor si amet, an dusino situ sint pertinacia
-                  constituto, mir es dignsius quo great.
+                  With chatGPT, we can easily integrate features such as
+                  language understanding, text generation, and converstaion
+                  flows in their applications. These can be used to create
+                  chatbot functionality, personalized content and much more
                 </p>
                 <a className="detail-button">
                   <i className="icon-img">
@@ -83,11 +85,11 @@ const Tools = () => {
                 <div className="hover-content" />
                 <i className="flaticon-value icon-s" />
                 <h5 className="title">
-                  <a href="#">Thousand of features and Custom option.</a>
+                  <a href="#">Midjourney/ Dall-E</a>
                 </h5>
                 <p>
-                  Lorem ipsum dolor si amet, an dusino situ sint pertinacia
-                  constituto, mir es dignsius quo great.
+                  Dall-E assists web designers like us in creating illustrations
+                  in seconds.
                 </p>
                 <a href="#" className="detail-button">
                   <i className="icon-img">
@@ -97,9 +99,9 @@ const Tools = () => {
                     />
                   </i>
                 </a>
-              </div>{" "}
+              </div>
               {/* /.service-block */}
-            </div>{" "}
+            </div>
             {/* /.single-block */}
             <div
               className="col-lg-4 single-block aos-init aos-animate"

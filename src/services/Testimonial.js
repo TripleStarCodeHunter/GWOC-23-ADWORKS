@@ -24,7 +24,7 @@ const NextBtn = (props) => {
 };
 
 const settings = {
-  dots: true,
+  // dots: true,
   infinite: true,
   slidesToScroll: 1,
   autoplay: true,
@@ -43,7 +43,6 @@ const Testimonial = () => {
           {...settings}
           prevArrow={<PreviousBtn />}
           nextArrow={<NextBtn />}
-          dots
         >
           <Card img="https://www.tutorialrepublic.com/examples/images/clients/1.jpg" />
           <Card img="https://www.tutorialrepublic.com/examples/images/clients/2.jpg" />
@@ -83,8 +82,8 @@ const Card = ({ img }) => {
         fringilla massa. Etiam hendrerit dolor eget rutrum
       </p>
       <p style={{ fontStyle: "italic", marginTop: 25 }}>
-        <span style={{ fontWeight: 500, color: "#8447e9" }}>PAULA WILSON</span>{" "}
-        , Media Analyst
+        <span style={{ fontWeight: 500, color: "#8447e9" }}>PAULA WILSON</span>,
+        Media Analyst
       </p>
     </div>
   );
