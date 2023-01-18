@@ -10,7 +10,7 @@
   margin-top:2vw
 }
 .learnmore:hover{
-  color:#42e386;
+  color:#8447E9;
 }
 .project-left{
     font-size: 2.604vw;
@@ -116,34 +116,37 @@
     font-family: Montserrat;
 }
 /*Styles for text of each slide*/
-.slide2{
-  color:white;
-  float:right;
-  
-  text-shadow: 0.13vw 0.13vw 0.521vw black;
-  text-align: right;
-  margin-top: 6.510vw;
-}
 .slide1{
   color:black;
   
   /* text-shadow: 2px 2px 8px white;
   margin-top:100px; */
   float:left;
-
+  font-size: 3vw;
   padding-left: 2.604vw;
   margin-top: 6.115vw;
   margin-left: 0;
-  text-shadow: 0.130vw 0.130vw 0.521vw black;
   color:white;
   height:auto; 
-   background-color: rgba(0,0,0,0.5);
+   background-color: rgba(0,0,0,0.65);
 }
+.slide2{
+  color:white;
+  float:right;
+  background-color: rgba(138, 204, 241,0.5);
+  /* text-shadow: 0.13vw 0.13vw 0.521vw black; */
+  text-align: right;
+  width:40%;
+  /* margin-top: 6.510vw; */
+}
+
 .slide3{
   color: white;
   float:left;
-  text-shadow: 0.130vw 0.130vw 0.521vw black;
-  
+  background-color: rgba(155, 240, 191,0.5);
+  padding-left: 2.604vw;
+  margin-left: 0;
+  width:35%;
 }
 /*Container of the entire intro component*/
 .intro{
@@ -172,17 +175,15 @@
   text-shadow: none;
   color:white;
   text-decoration:none;
-  width:6.51vw;
-  background-color:#8447E9;
-  font-size:1.953vw;
+  width:6vw;
+  background-color:#2642af;
+  font-size:1.6vw;
   border-radius:5px;
   padding:0.651vw 1.302vw;
-  box-shadow: 2px 2px 8px black;
 }
-.slide3button:hover{
-  color: #42e386;
+.slide3button:hover {
+  color:white;
 }
-
 .project-end{
   display: flex;
   flex-direction: column;
@@ -205,11 +206,9 @@
   border: none;
 }
 .project-end>a:hover{
-  color:#42e386;
+  color:black;
 }
-a:hover{
-  color:#42e386;
-}
+
 .imgformobile{
   display:none;
 }

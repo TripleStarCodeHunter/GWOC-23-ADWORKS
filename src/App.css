@@ -25,6 +25,7 @@
   position: relative;
   color: white;
   font-size: 1.628vw;
+  font-family: Montserrat;
 }
 .menu {
   display: flex;

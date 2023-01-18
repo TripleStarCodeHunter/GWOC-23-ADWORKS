@@ -12,7 +12,7 @@ export default function Navbar() {
     //     </div>
     <nav className="navigation">
       <a href="/" className="brand-name">
-        AdWorks
+        <span style={{color:"#42e386"}}>AD</span><span><ins style={{textDecorationColor:"#42e386"}}>Works</ins></span>
       </a>
       <button
         className="hamburger"

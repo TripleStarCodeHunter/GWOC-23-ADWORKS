@@ -12,10 +12,10 @@ const AboutUs = () => {
           About Us
         </h1>
         <p className="about-text">
-          We mainly focus on professional social media maagement and running
+          We mainly focus on professional social media management and running
           digital ads on platforms such as Facebook, Instagram and Google.
-          Everything from scratch from content ideation, designing and final
-          reach analysis is done by our in-house experts team. We are a
+          Everything is done from scratch including content ideation, designing and final
+          reach analysis which is done by our in-house team of experts. We are a
           fully-functional startup and already have a cliental base in surat.
         </p>
         <div className="container-main">
@@ -37,11 +37,11 @@ const AboutUs = () => {
             <div className="imgbx">
               <img src={achievement} />
             </div>
-            <div className="content-main">
+            <div className="content-main" >
               <h2>ACHIEVEMENTS</h2>
               <p>
                 Adworks was responsible for the advertising and marketting of
-                the herbal company,Saatvikaam, now a top contender in it's field
+                the herbal company, Saatvikaam, now a top contender in it's field
               </p>
             </div>
           </div>
