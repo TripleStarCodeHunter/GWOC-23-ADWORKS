@@ -3,7 +3,7 @@ import "./App.css";
 import Home from "./homepage/home";
 import Navbar from "./navbar";
 import Services from "./services/Services";
-import Footer from "./footer";
+import Footer from "./Footer.js";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       {/* <Home /> */}
       <Services />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
