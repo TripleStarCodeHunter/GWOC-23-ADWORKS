@@ -1,13 +1,29 @@
+import { purple } from "@material-ui/core/colors";
 import { useEffect,useState, useRef } from "react";
+import Intro from './intro';
+const Landing = () => {
 
-    const Landing = () => {
-    const images = ["https://cdn.pixabay.com/photo/2019/09/15/12/09/network-4478141__340.jpg", "https://cdn.pixabay.com/photo/2016/07/19/09/03/digital-marketing-1527799__340.png", "https://cdn.pixabay.com/photo/2017/06/12/03/33/seo-2394237__340.jpg"];
-    const delay = 3000;
-    const text=["USING ADVANCED AI TO CATER ALL YOUR MARKETING NEEDS",
-    "Hello World",
-    "READY TO TAKE YOUR BUSINESS TO THE NEXT LEVEL?"];
+  //Images for each slide
+  const images = ["https://knowledge.wharton.upenn.edu/wp-content/uploads/2020/05/Women-in-data-science.jpg",
+  "https://sloanreview.mit.edu/wp-content/uploads/2019/03/GEN-Keller-Modern-Marketing-1200x627-1200x627.jpg",
+  "    https://imageio.forbes.com/specials-images/imageserve/980428134/0x0.jpg?format=jpg&width=1200"];
 
-function Slideshow() {
+  /*
+    Extra images links :
+    https://cdn.pixabay.com/photo/2022/05/18/07/07/laptop-7204537__340.jpg
+    https://imageio.forbes.com/specials-images/imageserve/980428134/0x0.jpg?format=jpg&width=1200
+  */ 
+  const delay = 3000;
+
+  //text divs to display on slides
+  
+  const text=[<div className="slidetext slide1">USING<br/> ADVANCED AI <br/> TO CATER<br/> ALL YOUR<br/> MARKETING NEEDS</div>,
+  <div className="slidetext slide2">FROM START UPS<br/> TO LARGE COMPANIES, <br/>WE'VE GOT EVERYTHING COVERED</div>,
+  <div className="slidetext slide3">READY TO TAKE <br/>YOUR BUSINESS <br/>TO THE NEXT<br/> LEVEL?<br/>
+  <a href="" style={{color:"white",textDecoration:"none",width:"6.51vw",backgroundColor:"#8447E9",fontSize:"1.953vw",borderRadius:"5px",padding:"0.651vw 1.302vw"}}>Contact Us</a></div>
+  ];
+
+  function Slideshow() {
   const [index, setIndex] = useState(0);
   const timeoutRef = useRef(null);
 
@@ -34,7 +50,7 @@ function Slideshow() {
 
   //Styles for the three slides
   const styles=[{color:"white"},
-  {color:"black"},
+  {color:"black",width:"43%"},
   {color:"black"}];
 
 
@@ -52,9 +68,7 @@ function Slideshow() {
             // style={Object.assign(styles[index],{backgroundImage:`url(${x})`})}
             style={{backgroundImage:`url(${x})`}}
           >
-            <div class="slidetext" style={styles[index]}>{text[index]}<br/>
-            {index==2 && <a href="" style={{color:"white",textDecoration:"none",width:"100px",backgroundColor:"#8447E9",fontSize:"30px",borderRadius:"5px",padding:"10px 20px"}}>Contact Us</a>}
-            </div>
+            {text[index]}
           </div>
         ))}
       </div>
@@ -74,39 +88,7 @@ function Slideshow() {
   );
 }
     return (
-        <div class="homecont">
           <Slideshow/>
-            <div className="intro">
-              <br/>
-              <div style={{marginTop:"2vw",marginLeft:"45.3vw",fontSize:"20px"}}>WELCOME TO </div>
-              <div style={{marginLeft:"36.5vw",fontSize:"80px"}}>ADWORKS</div>
-              <div style={{marginLeft:"40.35vw",fontSize:"40px"}}>AD THAT WORKS</div>
-              <img src="https://cdn.pixabay.com/photo/2016/10/09/08/32/digital-marketing-1725340_960_720.jpg"/>
-
-              <div className="brief"><br/>
-                <div style={{marginTop:"5vw",fontSize:"20px",color:"#8447E9"}}><strong>WHY ADWORKS?</strong></div>
-                  <div style={{fontSize:"30px",marginTop:"2.5vw"}}>Adworks is your One Stop Solution for all your advertisement needs. 
-                  Through the use of AI, and our expert team of designers and marketers, we make sure your brand has a strong and positive social media presence
-                  </div>
-              </div>
-              <div className="brief">
-                <div style={{marginTop:"5vw",fontSize:"20px",color:"#8447E9"}}><strong>OUR SERVICES</strong></div>
-                <div className="servicesintro">
-                  We mainly focus on professional social media management and running digital ads on platforms such as Facebook, Instagram And Google. Everything from scratch from content ideation , designing and final reach analysis is done By our in-house team of experts. 
-                  <br/><br/>
-                  <strong>We specialize in : </strong><br/>
-                  <div style={{marginLeft:"2.5vw",marginTop:"2vw"}}>
-                    <ul>
-                      <li><span style={{color:"#8447E9"}}>Content Design : </span> We think about the design behind the content with a focus on how to serve the audience the information they need, when they need it.</li>
-                      <br/><li><span style={{color:"#8447E9"}}>Copy Writing : </span></li>
-                      <br/><li><span style={{color:"#8447E9"}}>Engagement : </span></li>
-                      <br/><li><span style={{color:"#8447E9"}}>Hashtag Research : </span></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div>
     );
 }
 export default Landing;
