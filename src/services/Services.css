@@ -196,3 +196,33 @@ p {
   max-height: 9999px;
   transition: all 0.5s cubic-bezier(1, 0, 1, 0);
 }
+
+.plusminus {
+  font-size: 40px;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .services-headertext {
+    width: 100vw;
+  }
+  .services-headertext > h3 {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.075em;
+    margin-bottom: 30px;
+  }
+
+  .services-headertext > h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .service-card {
+    grid-template-columns: 1fr;
+  }
+
+  .accordion {
+    width: 80vw;
+  }
+}

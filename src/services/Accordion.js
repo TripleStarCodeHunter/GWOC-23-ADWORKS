@@ -39,7 +39,7 @@ const Accordion = () => {
         <div className="item">
           <div className="title" onClick={() => toggle(i)}>
             <h2>{item.question}</h2>
-            <span>{selected === i ? "-" : "+"}</span>
+            <span className="plusminus">{selected === i ? "-" : "+"}</span>
           </div>
           <div className={selected === i ? "content show" : "content"}>
             <p>{item.answer}</p>

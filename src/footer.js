@@ -1,61 +1,85 @@
 import React from "react";
-import "./footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { fas } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
+  library.add(fab, fas);
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
   return (
-    <div className="footer">
-      <div className="container">
-        <div className="row">
-          <div className="footer-col-1">
-            <h3>AdWorks</h3>
-            <p>Ad's That Matter.</p>
-            <p>Ad's That Make A Difference.</p>
-            <p>An Ad That Works.</p>
-          </div>
-        </div>
-        <div className="footer-col-2">
-          add logo here
-          <p>
-            Our purpose is to PUT SOMETHING FROM ABOUT US PLEASE JUST LEAVE IT
-            LIKE THIS.
-          </p>
-        </div>
-        <div className="footer-col-3">
-          <h3>Useful Links</h3>
-          <ul>
-            <div>
-              <a href="">HOME</a>
-            </div>
-            <div>
-              <a href="">SERVICES</a>
-            </div>
-            <div>
-              <a href="">ABOUT</a>
-            </div>
-            <div>
-              <a href="">CONTACT US</a>
-            </div>
-          </ul>
-        </div>
-        <div className="footer-col-4">
-          <h3>Follow Us</h3>
-          <ul>
-            <div>
-              <a href="">Instagram</a>
-            </div>
-            <div>
-              <a href="">Linkedin</a>
-            </div>
-            <div>
-              <a href="">Facebook</a>
-            </div>
-            <div>
-              <a href="">Youtube</a>
-            </div>
-          </ul>
+    <footer className="footer">
+      <div className="footer-left col-md-4 col-sm-6">
+        <p className="about">
+          <span> About the company</span> Ut congue augue non tellus bibendum,
+          in varius tellus condimentum. In scelerisque nibh tortor, sed rhoncus
+          odio condimentum in. Sed sed est ut sapien ultrices eleifend. Integer
+          tellus est, vehicula eu lectus tincidunt, ultricies feugiat leo.
+          Suspendisse tellus elit, pharetra in hendrerit ut, aliquam quis augue.
+          Nam ut nibh mollis, tristique ante sed, viverra massa.
+        </p>
+        <div className="icons">
+          <a href="#">
+            <FontAwesomeIcon icon="fa-brands fa-square-facebook" />
+          </a>
+          <a href="#">
+            <FontAwesomeIcon icon="fa-brands fa-square-twitter" />
+          </a>
+          <a href="#">
+            <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+          </a>
+          <a href="#">
+            <FontAwesomeIcon icon="fa-brands fa-square-google-plus" />
+          </a>
+          <a href="#">
+            <FontAwesomeIcon icon="fa-brands fa-square-instagram" />
+          </a>
         </div>
       </div>
-    </div>
+      <div className="footer-center col-md-4 col-sm-6">
+        <div>
+          <FontAwesomeIcon icon="fa-solid fa-location-dot" className="i" />
+          <p>
+            <span> Street name and number</span> City, Country
+          </p>
+        </div>
+        <div>
+          <FontAwesomeIcon icon="fa-solid fa-phone" className="i" />
+          <p> (+00) 0000 000 000</p>
+        </div>
+        <div>
+          <FontAwesomeIcon
+            icon="fa-solid fa-envelope"
+            className="i fa-envelope"
+          />
+          <p>
+            <a href="#"> office@company.com</a>
+          </p>
+        </div>
+      </div>
+      <div className="footer-right col-md-4 col-sm-6">
+        <h2>
+          {" "}
+          Ad<span>Works</span>
+        </h2>
+        <p className="menu">
+          <a href="/"> Home</a> |<a href="/about"> About</a> |
+          <a href="/services"> Services</a>|<a href="/contact"> Contact</a> |
+          <a href="#">
+            <FontAwesomeIcon
+              icon="fa-solid fa-arrow-up"
+              onClick={scrollToTop}
+            />
+          </a>
+        </p>
+        <p className="name"> Company Name &copy; 2016</p>
+      </div>
+    </footer>
   );
 };
 
