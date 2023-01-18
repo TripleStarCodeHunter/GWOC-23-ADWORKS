@@ -65,11 +65,11 @@ const Footer = () => {
       <div className="footer-right col-md-4 col-sm-6">
         <h2>
           {" "}
-          Company<span> logo</span>
+          Ad<span>Works</span>
         </h2>
         <p className="menu">
-          <a href="#"> Home</a> |<a href="#"> About</a> |
-          <a href="#"> Services</a>|<a href="#"> Contact</a> |
+          <a href="/"> Home</a> |<a href="/about"> About</a> |
+          <a href="/services"> Services</a>|<a href="/contact"> Contact</a> |
           <a href="#">
             <FontAwesomeIcon
               icon="fa-solid fa-arrow-up"
