@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
-.left{
+.project-left{
     font-size: 2.604vw;
     width:40vw;
     position: absolute;
-    bottom:24%;
+    bottom:15%;
     left:5%;
 }
 .contpro{
@@ -17,7 +17,7 @@
     font-family: 'Montserrat';
 }
 
-.right{
+.project-right{
     margin: auto;
     width:40vw;
     height:28vw;
@@ -105,8 +105,9 @@
 .slide1{
   color:white;
   float:right;
+  
   text-shadow: 0.13vw 0.13vw 0.521vw black;
-  text-align: center;
+  text-align: right;
   margin-top: 6.510vw;
 }
 .slide2{
@@ -117,7 +118,7 @@
   float:left;
 
   padding-left: 2.604vw;
-  margin-top: 9.115vw;
+  margin-top: 6.115vw;
   margin-left: 0;
   text-shadow: 0.130vw 0.130vw 0.521vw black;
   color:white;
@@ -155,7 +156,7 @@
 }
 
 
-.end{
+.project-end{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -165,7 +166,7 @@
   justify-content: space-evenly;
   font-family: 'Montserrat';
 }
-.end>a{
+.project-end>a{
   text-decoration: none;
   color:black;
   height:4.492vw;

@@ -3,12 +3,17 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Karla";
+  font-family: Montserrat;
 }
-.navbar {
-  height: 10vh;
+
+.header-navbar {
+  height: 4.7vw;
+  /* background-color: #065d8f; */
+  /* background-color: black; */
+
   background: linear-gradient(to right, #201a62, #7202bb);
-  font-size: 19px;
+  font-size: 1.23vw;
+  position: sticky;
   top: 0px;
   z-index: 2;
   position: sticky;
@@ -17,7 +22,7 @@
   float: left;
   margin: auto;
   width: 55vw;
-  height: 10vh;
+  height: 4.7vw;
   position: relative;
   color: white;
 }
@@ -26,8 +31,9 @@
   align-items: center;
   justify-content: space-between;
   margin-right: 5vw;
-  height: 10vh;
+  height: 4.7vw;
 }
+
 .menu > div > a {
   color: white;
   text-decoration: none;

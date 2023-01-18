@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <div className="header-navbar">
       <div className="logo">
         <div style={{ position: "absolute", left: "5%", top: "35%" }}>
           ADWORKS
