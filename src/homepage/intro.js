@@ -1,5 +1,10 @@
 import engage from '../assets/ad-engage.png';
 import tech from '../assets/services-tech.png';
+import whyadworks from '../assets/whyadworks.jpg';
+import contentdesign from '../assets/content-design.png';
+import copywriting from '../assets/copy-writing.png';
+import hashtag from '../assets/hashtag-research.png';
+
 const Intro = ()=>{
     return (
         <div className="intro" style={{backgroundColor:"white"}}>
@@ -9,7 +14,7 @@ const Intro = ()=>{
                 <div className="adworks" style={{fontSize:"5.208vw"}}><strong style={{color:"#42e386"}}>AD</strong><span><ins style={{textDecorationColor:"#42e386"}}>Works</ins></span></div>
                 <div className="slogan" style={{fontSize:"2.604vw"}}>AD THAT WORKS</div>
               </div>
-              <img src="https://cdn.pixabay.com/photo/2016/10/09/08/32/digital-marketing-1725340_960_720.jpg"/>
+              <img src={whyadworks}/>
 
               <div className="brief brief2"><br/>
                 <div className="homeheadings" style={{marginTop:"5vw",fontSize:"1.302vw",color:"#8447E9"}}><strong>WHY ADWORKS?</strong></div>
@@ -17,7 +22,7 @@ const Intro = ()=>{
                   Through the use of AI, our expert team of designers and marketers make sure that your brand has a strong and positive social media presence
                   </div>
               </div>
-              <img className='imgformobile' src="https://cdn.pixabay.com/photo/2016/10/09/08/32/digital-marketing-1725340_960_720.jpg"/>
+              <img className='imgformobile' src={whyadworks}/>
               <div className="brief ">
                 <div className="homeheadings" style={{marginTop:"5vw",fontSize:"1.302vw",color:"#8447E9"}}><strong>OUR SERVICES</strong></div>
                 <div className="servicesintro">
@@ -30,11 +35,11 @@ const Intro = ()=>{
                   <div style={{marginLeft:"2.5vw",marginTop:"2vw"}}>
                       <div className="services-flex-1" style={{marginBottom:"1vw"}}>
                         <div className="services-flex-item">
-                          <img className='services-card-image' src="https://www.pngmart.com/files/7/Web-Design-Transparent-Images-PNG.png"  />
+                          <img className='services-card-image' src={contentdesign}  />
                           <div class="services-card-title">Content Design </div>We use AI to generate attractive text, post info and website content 
                         </div>
                         <div className="services-flex-item">
-                        <img className='services-card-image' style={{width:"70%"}} src="https://cdn-icons-png.flaticon.com/512/2867/2867276.png"  />
+                        <img className='services-card-image' style={{width:"70%"}} src={copywriting}  />
                         <div class="services-card-title">Copy Writing </div>We provide the most suitable text and slogans for your advertisement
                         </div>
                         <div className="services-flex-item">
@@ -45,7 +50,7 @@ const Intro = ()=>{
                       </div>
                       <div className="services-flex-1">
                         <div className="services-flex-item">
-                          <img className='services-card-image' src="https://cdn.brandmentions.com/blog/wp-content/uploads/2020/12/hashtag-monitoring-BrandMentions.png"  />
+                          <img className='services-card-image' src={hashtag}  />
                           <div className="services-card-title">Hashtag Research</div>
                           We provide the hashtags most suitable for your business after a detailed research 
                         </div>

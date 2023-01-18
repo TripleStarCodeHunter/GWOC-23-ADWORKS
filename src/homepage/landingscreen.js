@@ -1,12 +1,13 @@
-import { purple } from "@material-ui/core/colors";
 import { useEffect,useState, useRef } from "react";
-import Intro from './intro';
-import slide3 from '../assets/slide3.png'
+import slide3 from '../assets/slide3.png';
+import slide1 from '../assets/slide1.jpg';
+import slide2 from '../assets/slide2.jpg';
+
 const Landing = () => {
 
   //Images for each slide
-  const images = ["https://sloanreview.mit.edu/wp-content/uploads/2019/03/GEN-Keller-Modern-Marketing-1200x627-1200x627.jpg",
-  "  https://knowledge.wharton.upenn.edu/wp-content/uploads/2020/05/Women-in-data-science.jpg",
+  const images = [slide1,
+  slide2,
   slide3];
   /*
     Extra images links :
@@ -47,11 +48,6 @@ const Landing = () => {
       resetTimeout();
     };
   }, [index]);
-
-  //Styles for the three slides
-  const styles=[{color:"white"},
-  {color:"black",width:"43%"},
-  {color:"black"}];
 
 
   return (
