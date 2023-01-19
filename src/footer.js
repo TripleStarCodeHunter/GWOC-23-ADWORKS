@@ -77,6 +77,7 @@ const Footer = () => {
             />
           </a>
         </p>
+        <br />
         <p className="name"> AdWorks &copy; 2016</p>
       </div>
     </footer>

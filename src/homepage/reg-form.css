@@ -137,11 +137,17 @@ form .buttonR input:hover {
 @media (max-width: 786px) {
   .Registmain {
     width: 100%;
+    height: 1000px;
   }
   .containerR {
     max-width: 90%;
     height: 700px;
   }
+
+  .contentR > form {
+    width: 100%;
+  }
+
   form .user-detailsR .input-boxR {
     margin-bottom: 15px;
     width: 100%;

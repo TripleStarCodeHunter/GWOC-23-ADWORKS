@@ -338,10 +338,14 @@ textarea::placeholder {
 
 @media (max-width: 786px) {
   .containerC {
-    padding: 1.5rem;
-    margin-left: -15vw;
-    margin-top: -25vw;
+    width: 100%;
+    /* margin-left: -15vw;
+    margin-top: -25vw; */
     min-height: 1200px;
+  }
+
+  .formC {
+    margin: -120px;
   }
 
   .contact-info:before {
@@ -351,12 +355,6 @@ textarea::placeholder {
   .square,
   .big-circle {
     display: none;
-  }
-
-  form,
-  .contact-info {
-    /* padding: 1.7rem 1.6rem; */
-    padding-right: 40vw;
   }
 
   .textC,
