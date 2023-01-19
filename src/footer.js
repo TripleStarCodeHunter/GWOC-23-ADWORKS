@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
         <div>
           <FontAwesomeIcon icon="fa-solid fa-phone" className="i" />
-          <p> (+00) 0000 000 000</p>
+          <p> (+91) 9723 919 835</p>
         </div>
         <div>
           <FontAwesomeIcon
@@ -57,7 +57,7 @@ const Footer = () => {
             className="i fa-envelope"
           />
           <p>
-            <a href="#"> office@company.com</a>
+            <a href="#"> Dhruvilshahaha@gmail.com</a>
           </p>
         </div>
       </div>

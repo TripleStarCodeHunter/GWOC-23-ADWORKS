@@ -12,8 +12,11 @@ export default function Navbar() {
     //     </div>
     <nav className="navigation">
       <a href="/" className="brand-name">
-        <span style={{color:"#42e386"}}>AD</span><span><ins style={{textDecorationColor:"#42e386"}}>Works</ins></span>
+        <span style={{color:"#75DFED"}}>AD</span><span><span style={{borderBottom:"0.130vw solid #75DFED"}}>Works</span></span>
       </a>
+      {/* mint color : #42e386 
+          light blue : #75DFED
+      */}
       <button
         className="hamburger"
         onClick={() => {

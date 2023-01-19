@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./assets/favicon.png";
 import "./App.css";
 import Home from "./homepage/home";
 import Services from "./services/Services";
