@@ -4,9 +4,29 @@
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background: linear-gradient(135deg, #71b7e6, #9b59b6);
   margin-bottom: -50px;
 }
+
+.gradient {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(334deg, #c15db6, #7525e2, #7202bb, #201a62);
+  background-size: 180% 180%;
+  animation: gradient-animation 6s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .containerR {
   max-width: 700px;
   width: 100%;
@@ -15,12 +35,12 @@
   border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
-.containerR .title {
+.containerR .titleR {
   font-size: 25px;
   font-weight: 500;
   position: relative;
 }
-.containerR .title::before {
+.containerR .titleR::before {
   content: "";
   position: absolute;
   left: 0;
@@ -108,11 +128,11 @@ form .buttonR input {
   letter-spacing: 1px;
   cursor: pointer;
   transition: all 0.3s ease;
-  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  background: linear-gradient(135deg, #7202bb, #7525e2);
 }
 form .buttonR input:hover {
   /* transform: scale(0.99); */
-  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+  background: linear-gradient(-135deg, #7202bb, #7525e2);
 }
 @media (max-width: 584px) {
   .containerR {

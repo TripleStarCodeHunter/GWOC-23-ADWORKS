@@ -16,11 +16,12 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-left col-md-4 col-sm-6">
         <p className="about">
-          <span> About the company</span> We mainly focus on professional social media management 
-          and running digital ads on platforms such as Facebook, Instagram and Google. Everything 
-          is done from scratch including content ideation, designing and final reach analysis which 
-          is done by our in-house team of experts. We are a fully-functional startup and already have 
-          a cliental base in surat.
+          <span> About the company</span> We mainly focus on professional social
+          media management and running digital ads on platforms such as
+          Facebook, Instagram and Google. Everything is done from scratch
+          including content ideation, designing and final reach analysis which
+          is done by our in-house team of experts. We are a fully-functional
+          startup and already have a cliental base in surat.
         </p>
         <div className="icons">
           <a href="#">
@@ -44,12 +45,12 @@ const Footer = () => {
         <div>
           <FontAwesomeIcon icon="fa-solid fa-location-dot" className="i" />
           <p>
-            <span> Street name and number</span> City, Country
+            <span> Keval Chowk, SVNIT</span> Surat, Gujarat
           </p>
         </div>
         <div>
           <FontAwesomeIcon icon="fa-solid fa-phone" className="i" />
-          <p> (+00) 0000 000 000</p>
+          <p> (+91) 9723919835</p>
         </div>
         <div>
           <FontAwesomeIcon
@@ -57,14 +58,14 @@ const Footer = () => {
             className="i fa-envelope"
           />
           <p>
-            <a href="#"> office@company.com</a>
+            <a href="#"> dhruvilshahaha@gmail.com</a>
           </p>
         </div>
       </div>
       <div className="footer-right col-md-4 col-sm-6">
         <h2>
-          {" "}
-          Ad<span>Works</span>
+          <span className="ad">Ad</span>
+          <span className="works">Works</span>
         </h2>
         <p className="menu">
           <a href="/"> Home</a> |<a href="/about"> About</a> |
@@ -76,7 +77,7 @@ const Footer = () => {
             />
           </a>
         </p>
-        <p className="name"> Company Name &copy; 2016</p>
+        <p className="name"> AdWorks &copy; 2016</p>
       </div>
     </footer>
   );

@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Home from "./homepage/home";
 import Services from "./services/Services";
@@ -7,13 +6,13 @@ import AboutUs from "./about-us/AboutUs";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./navbar";
 import Footer from "./footer";
-import {useEffect} from 'react';
-import './navbar.css'
+import { useEffect } from "react";
+import "./navbar.css";
 
 function App() {
   useEffect(() => {
-    document.title = "ADWorks - Ad That Works"
- }, []);
+    document.title = "ADWorks - Ad That Works";
+  }, []);
   return (
     <div className="App">
       <Router>

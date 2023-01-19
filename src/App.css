@@ -6,12 +6,12 @@
   font-family: Montserrat;
 }
 
-.header-navbar{
-  height:4.7vw;
+.header-navbar {
+  height: 4.7vw;
   /* background-color: #065d8f; */
   /* background-color: black; */
 
-  background: linear-gradient(to right, #201a62, #7202bb);
+  background: linear-gradient(to right, #201a62, #42e386);
   font-size: 1.23vw;
   position: sticky;
   top: 0px;
@@ -85,7 +85,7 @@
   width: 35px;
   height: 35px;
   cursor: pointer;
-  background-color: #7202bb;
+  background-color: #787878;
   border-radius: 2px;
   font-size: 20px;
   color: #ffffff;
@@ -93,6 +93,7 @@
   line-height: 35px;
   margin-right: 3px;
   margin-bottom: 5px;
+  margin-left: 5px;
 }
 
 /* footer center*/
@@ -103,7 +104,7 @@
 
 .footer .footer-center .i {
   padding: 10px;
-  background-color: #7202bb;
+  background-color: #787878;
   color: #ffffff;
   font-size: 25px;
   width: 30px;
@@ -135,33 +136,30 @@
 }
 
 .footer .footer-center p a {
-  color: #7202bb;
+  color: white;
   text-decoration: none;
   margin-right: 5vw;
-
 }
-.menu>div>a:hover{
-  color:#42e386;
+.menu > div > a:hover {
+  color: #42e386;
 }
 @media only screen and (max-width: 600px) {
-  .menu{
-    display:none;
+  .menu {
+    display: none;
   }
-  .logo{
+  .logo {
     font-size: 5vw;
     text-align: center;
-    width:auto;
-    bottom:18%;
-    right:15%;
+    width: auto;
+    bottom: 18%;
+    right: 15%;
   }
-  .header-navbar{
-    height:12.5vw;
-    display:flex;
-    justify-content: center; 
-    
+  .header-navbar {
+    height: 12.5vw;
+    display: flex;
+    justify-content: center;
   }
 }
-
 
 /* footer right*/
 
@@ -176,8 +174,13 @@
   margin: 0;
 }
 
-.footer h2 span {
-  color: #7202bb;
+.footer h2 span.works {
+  color: white;
+  border-bottom: 4px solid #42e386;
+}
+
+h2 > span.ad {
+  color: #42e386;
 }
 
 .footer .menu {
@@ -198,11 +201,11 @@
 }
 
 .footer .menu > a:hover {
-  color: #7202bb;
+  color: #42e386;
 }
 
 .footer .name {
-  color: #7202bb;
+  color: #787878;
   font-size: 14px;
   font-weight: normal;
   margin: 0;

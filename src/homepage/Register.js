@@ -3,7 +3,7 @@ import "./reg-form.css";
 
 const Register = () => {
   return (
-    <div className="Registmain">
+    <div className="Registmain gradient">
       <div className="containerR">
         <div className="titleR">Registration</div>
         <div className="contentR">
