@@ -3,24 +3,24 @@ import React, { useState } from "react";
 const Accordion = () => {
   const data = [
     {
-      question: "What makes blockchain trustworthy?",
+      question: "What is digital marketing?",
       answer:
-        "There are three sides to this answer. Firstly, nobody but the owner of the data can access it without permission. Thus, it is a safe way to protect data from third parties who should not see the information. Secondly, the data can be tracked at any time. It comes with a timestamp which indicates when the information was written on the blockchain and it is always available for fetching. ",
+        "Digital Marketing is any kind of marketing that is geared towards smartphones, laptop, tablets and basically any other device that is capable of connecting to Wi-Fi. ",
     },
     {
-      question: "Why Do You Want to Work at This Company?",
+      question: "Would my company benefit from digital marketing?",
       answer:
-        "Fusce et imperdiet ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ipsum erat, ullamcorper nec bibendum aliquam, commodo ac enim. In a aliquet enim, nec vehicula ligula. Aenean non magna sapien. Integer vel massa vulputate, varius nunc nec, malesuada arcu. ",
+        "You don't have to replace your traditional marketing efforts with digital ones, but it is 2023 and if the word digital doesn't come into your marketing strategy then your business will not thrive. It really is as simple as that. ",
     },
     {
-      question: "What Are Your Greatest Strengths?",
+      question: "What is SEO?",
       answer:
-        "Fusce et imperdiet ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ipsum erat, ullamcorper nec bibendum aliquam, commodo ac enim. In a aliquet enim, nec vehicula ligula. Aenean non magna sapien. Integer vel massa vulputate, varius nunc nec, malesuada arcu. ",
+        "Search Engine Optimisation is the practice of using on-page and off-page tweaks and tactics to ensure that your page ranks higher on search engines.  ",
     },
     {
-      question: "Can You Explain Why You Changed Career Paths?",
+      question: "What are keywords?",
       answer:
-        "Fusce et imperdiet ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ipsum erat, ullamcorper nec bibendum aliquam, commodo ac enim. In a aliquet enim, nec vehicula ligula. Aenean non magna sapien. Integer vel massa vulputate, varius nunc nec, malesuada arcu. ",
+        "Keywords are the words and phrases that searchers use- usualy on a search engine. These are the words that we use when looking for pages, images, videos, blogs, any kinf of information or content on the web really. These keywords need to be strategically inserted into your pages and content.",
     },
   ];
 

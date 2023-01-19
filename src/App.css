@@ -11,7 +11,7 @@
   /* background-color: #065d8f; */
   /* background-color: black; */
 
-  background: linear-gradient(to right, #201a62, #42e386);
+  background: linear-gradient(to right, #201a62, #75dfed);
   font-size: 1.23vw;
   position: sticky;
   top: 0px;
@@ -85,7 +85,7 @@
   width: 35px;
   height: 35px;
   cursor: pointer;
-  background-color: #787878;
+  background-color: #171346;
   border-radius: 2px;
   font-size: 20px;
   color: #ffffff;
@@ -104,7 +104,7 @@
 
 .footer .footer-center .i {
   padding: 10px;
-  background-color: #787878;
+  background-color: #171346;
   color: #ffffff;
   font-size: 25px;
   width: 30px;
@@ -141,7 +141,7 @@
   margin-right: 5vw;
 }
 .menu > div > a:hover {
-  color: #42e386;
+  color: #75dfed;
 }
 @media only screen and (max-width: 600px) {
   .menu {
@@ -176,11 +176,11 @@
 
 .footer h2 span.works {
   color: white;
-  border-bottom: 4px solid #42e386;
+  border-bottom: 4px solid #75dfed;
 }
 
 h2 > span.ad {
-  color: #42e386;
+  color: #75dfed;
 }
 
 .footer .menu {
@@ -201,11 +201,11 @@ h2 > span.ad {
 }
 
 .footer .menu > a:hover {
-  color: #42e386;
+  color: #75dfed;
 }
 
 .footer .name {
-  color: #787878;
+  color: white;
   font-size: 14px;
   font-weight: normal;
   margin: 0;

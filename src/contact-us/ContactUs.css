@@ -218,6 +218,7 @@ textarea::placeholder {
 .icon {
   width: 28px;
   margin-right: 0.7rem;
+  margin-bottom: 10px;
 }
 
 .social-media {
@@ -339,8 +340,8 @@ textarea::placeholder {
   .containerC {
     padding: 1.5rem;
     margin-left: -15vw;
-    margin-top: -15vw;
-    min-height: 1000px;
+    margin-top: -25vw;
+    min-height: 1200px;
   }
 
   .contact-info:before {

@@ -1,7 +1,12 @@
 import React from "react";
 import "./ContactUs.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { fas } from "@fortawesome/free-solid-svg-icons";
 
 const ContactUs = () => {
+  library.add(fab, fas);
   return (
     <div className="containerC">
       <span className="big-circle"></span>
@@ -17,16 +22,19 @@ const ContactUs = () => {
 
           <div className="info">
             <div className="information">
-              <img src="img/location.png" className="icon" alt="" />
+              <FontAwesomeIcon
+                icon="fa-solid fa-location-dot"
+                className="icon"
+              />
               <p>Svnit, Surat, Gujarat</p>
             </div>
             <div className="information">
-              <img src="img/email.png" className="icon" alt="" />
-              <p>adworks@gmail.com</p>
+              <FontAwesomeIcon icon="fa-solid fa-phone" className="icon" />
+              <p>dhruvilshahaha@gmail.com</p>
             </div>
             <div className="information">
-              <img src="img/phone.png" className="icon" alt="" />
-              <p>+91 989898989898</p>
+              <FontAwesomeIcon icon="fa-solid fa-envelope" className="icon" />
+              <p>(+91) 9723919835</p>
             </div>
           </div>
 
@@ -34,16 +42,16 @@ const ContactUs = () => {
             <p>Connect with us :</p>
             <div className="social-icons">
               <a href="#">
-                <i className="fab fa-facebook-f"></i>
+                <FontAwesomeIcon icon="fa-brands fa-square-facebook" />
               </a>
               <a href="#">
-                <i className="fab fa-twitter"></i>
+                <FontAwesomeIcon icon="fa-brands fa-square-twitter" />
               </a>
               <a href="#">
-                <i className="fab fa-instagram"></i>
+                <FontAwesomeIcon icon="fa-brands fa-square-instagram" />
               </a>
               <a href="#">
-                <i className="fab fa-linkedin-in"></i>
+                <FontAwesomeIcon icon="fa-brands fa-linkedin" />
               </a>
             </div>
           </div>

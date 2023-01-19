@@ -78,7 +78,7 @@
 
 .container-main .about-cards {
   position: relative;
-  max-width: 320px;
+  max-width: 330px;
   height: 260px;
   background-color: #ec02b1;
   margin: 30px 10px;
@@ -138,6 +138,7 @@
   opacity: 0;
   transition: 0.7s ease-in-out;
   z-index: 10;
+  overflow: hidden;
 }
 
 .container-main .about-cards:hover .content-main {

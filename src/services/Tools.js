@@ -49,7 +49,7 @@ const Tools = () => {
                 <div className="hover-content" />
                 <i className="flaticon-web user" />
                 <h5 className="title">
-                  <a href="#">Chat GPT</a>
+                  <a href="https://openai.com/blog/chatgpt/">Chat GPT</a>
                 </h5>
                 <p>
                   With chatGPT, we can easily integrate features such as
@@ -88,10 +88,15 @@ const Tools = () => {
                   <a href="#">Midjourney/ Dall-E</a>
                 </h5>
                 <p>
-                  Dall-E assists web designers like us in creating illustrations
-                  in seconds.
+                  Dall-E assists designers like us in creating illustrations in
+                  seconds. We use the AI technology to draw multiple images
+                  related to the creator's content, skipping the gruelling hours
+                  of planning, designing and illustrating the images ourselves.
                 </p>
-                <a href="#" className="detail-button">
+                <a
+                  href="https://openai.com/dall-e-2/"
+                  className="detail-button"
+                >
                   <i className="icon-img">
                     <img
                       src="https://cdn-icons-gif.flaticon.com/6172/6172518.gif"
@@ -119,11 +124,15 @@ const Tools = () => {
                 <div className="hover-content" />
                 <i className="flaticon-login icon-s" />
                 <h5 className="title">
-                  <a href="#">Strong Managment &amp; Security.</a>
+                  <a href="https://advertising101.fandom.com/wiki/Meme_Advertising">
+                    Meme marketing
+                  </a>
                 </h5>
                 <p>
-                  Lorem ipsum dolor si amet, an dusino situ sint pertinacia
-                  constituto, mir es dignsius quo great.
+                  Meme marketing is a strategy where we leverage entertaining,
+                  humorous and shareable content in the form of memes to
+                  increase your brand presence and market your products or
+                  services.
                 </p>
                 <a href="#" className="detail-button">
                   <i className="icon-img">

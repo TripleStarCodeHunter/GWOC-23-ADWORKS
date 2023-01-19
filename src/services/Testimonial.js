@@ -76,10 +76,10 @@ const Card = ({ img }) => {
         }}
       />
       <p>
-        Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia.
-        Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan
-        tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt
-        fringilla massa. Etiam hendrerit dolor eget rutrum
+        We were really impressed by how quick and efficiently our work was
+        handled. They were very thorough throughout, making multiple revisions,
+        taking into account any inputs we had along the way. Overall a fantastic
+        experience.
       </p>
       <p style={{ fontStyle: "italic", marginTop: 25 }}>
         <span style={{ fontWeight: 500, color: "#8447e9" }}>PAULA WILSON</span>,
