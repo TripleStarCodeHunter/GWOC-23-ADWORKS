@@ -1,5 +1,6 @@
 import React from "react";
 import service1 from "./service1.jpg";
+import service from "../assets/services.svg";
 
 const ServiceCard = () => {
   return (
@@ -25,7 +26,7 @@ const ServiceCard = () => {
           </ul>
         </div>
       </div>
-      <img className="service-image" src={service1} alt="" />
+      <img className="service-image" src={service} alt="" />
     </div>
   );
 };

@@ -1,8 +1,8 @@
 import React from "react";
 import "./Tools.css";
-import animate from "https://cdn.jsdelivr.net/npm/animateplus@2/animateplus.js";
+// import animate from "https://cdn.jsdelivr.net/npm/animateplus@2/animateplus.js";
+import animate from "animateplus";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Row, Col } from "react-bootstrap";
 
 const Tools = () => {
   animate({
