@@ -1,18 +1,13 @@
 import React, { useEffect } from "react";
 import "./Services.css";
 import ServiceCard from "./ServiceCard";
-import Gallery from "react-photo-gallery";
-import photos from "./photos";
 import Accordion from "./Accordion";
 import Testimonial from "./Testimonial";
 import ServiceCardInvert from "./ServiceCardInvert";
+import ServiceCard2 from "./ServiceCard2";
 import Tools from "./Tools";
 
 const Services = () => {
-  console.log(photos);
-
-  const BasicRows = () => <Gallery photos={photos} />;
-
   return (
     <div className="services-page">
       {/* Header Section */}
@@ -32,19 +27,8 @@ const Services = () => {
       <section className="container">
         <ServiceCard />
         <ServiceCardInvert />
-        <ServiceCard />
-        <ServiceCardInvert />
+        <ServiceCard2 />
       </section>
-
-      {/* Projects Section */}
-      {/* <section className="projects">
-        <div className="container">
-          <div className="project-main">
-            <h1>Our Latest Works</h1>
-          </div>
-          <BasicRows />
-        </div>
-      </section> */}
 
       {/* Tools Section */}
       <Tools />

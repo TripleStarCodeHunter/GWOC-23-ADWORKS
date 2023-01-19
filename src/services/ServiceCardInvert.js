@@ -1,28 +1,27 @@
 import React from "react";
 import service1 from "./service1.jpg";
+import marketing from "../assets/marketing.svg";
 
 const ServiceCardInvert = () => {
   return (
     <div className="service-card">
-      <img className="service-image" src={service1} alt="" />
+      <img className="service-image" src={marketing} alt="" />
       <div className="service-content">
-        <h1>Strategy services</h1>
+        <h1>Marketing services</h1>
         <p>
-          We fuel the growth of purpose driven brands through strategy
-          activation, design empowerment, and market adoption. From cultivating
-          new ideas to connecting the dots for customers or users, these are our
-          core principles.
+          Reality is a new reality. With a well-built digital strategy we
+          leverage this stellar tech to propel your brand forward.
         </p>
         <div className="flex">
           <ul>
-            <li>Market and competitive research</li>
-            <li>CRM & sales funnel strategy</li>
-            <li>Brand positioning & messaging</li>
+            <li>Digital marketing campaigns</li>
+            <li>Lead nurturing</li>
+            <li>Marketing personas</li>
           </ul>
           <ul>
-            <li>Automation</li>
-            <li>UX consulting</li>
-            <li>Marketing strategy</li>
+            <li>Content creation</li>
+            <li>Branding</li>
+            <li>SEO</li>
           </ul>
         </div>
       </div>
