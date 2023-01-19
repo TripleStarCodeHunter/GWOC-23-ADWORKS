@@ -4,14 +4,14 @@ Team name : Tempest
 
 Team members :  
    
-o Bilal Malik o  
-o Vinayaka Iyer o  
-o Zenin D'Silva o  
-o Manav Chauhan o  
+o Bilal Malik  ( Responsible for heading the Home Page and Logo creation )<br>
+o Vinayaka Iyer  ( Resposible for heading the Services Page, NavBar and Footer creation )<br>
+o Zenin D'Silva  ( Resposible for heading the Contact Us and Registration Page creation )<br>
+o Manav Chauhan  ( Responsible for heading the About Us Page and Favicon creation )<br>
 
-We have used React.JS to build this website. 
+We have used React.JS, Material UI and Bootstrap to build this website. The work was distributed among the members such that one headed the development while others provided with constructive criticism wherever required. 
 
-This project is based on the company ADWorks which is mainly involved in digital marketing and was made for the Google Winter of Code challenge hosted by the GDSC club of our college 
+This project is based on the company ADWorks which is mainly involved in digital marketing and was made for the Google Winter of Code challenge hosted by the GDSC club of our college, Sardar Vallabhbhai National Institute of Technology, Surat, Gujarat, India.
 
 Visit the website on : <link_here>  
 

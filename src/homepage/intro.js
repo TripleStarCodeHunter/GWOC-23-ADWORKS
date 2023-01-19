@@ -11,7 +11,7 @@ const Intro = ()=>{
               <br/>
               <div style={{textAlign:"center"}}>
                 <div className="welcometo" style={{marginTop:"2vw",fontSize:"1.302vw"}}>WELCOME TO </div>
-                <div className="adworks" style={{fontSize:"5.208vw"}}><strong style={{color:"#42e386"}}>AD</strong><span><ins style={{textDecorationColor:"#42e386"}}>Works</ins></span></div>
+                <div className="adworks" style={{fontSize:"5.208vw"}}><strong style={{color:"#75DFED"}}>AD</strong><span><ins style={{textDecorationColor:"#75DFED"}}>Works</ins></span></div>
                 <div className="slogan" style={{fontSize:"2.604vw"}}>AD THAT WORKS</div>
               </div>
               <img src={whyadworks}/>
@@ -56,7 +56,7 @@ const Intro = ()=>{
                         </div>
                         <div className="services-flex-item">
                           <img className='services-card-image' src={tech}  />
-                          <div class="services-card-title">Artificial Intelligence </div>We are proficient in the latest AI technologies such as DALL E and Midjourney 
+                          <div class="services-card-title">Artificial Intelligence </div>We are proficient in the latest AI technologies such as Zocket and Midjourney 
                         </div>
                       </div>
                   </div>
