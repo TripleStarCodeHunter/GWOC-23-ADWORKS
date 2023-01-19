@@ -8,10 +8,10 @@ const Project = () => {
         <div >
             <div class="contpro">
                 <div class="project-left">
-                    <h4 style={{fontSize:'2.083vw'}}>Our Ads</h4><br/>
+                    <h4 className="homeheadings" style={{fontSize:'2.083vw'}}>Our Ads</h4><br/>
                 We guide game-changing companies, across platforms & places, 
                 through agile design & digital experience. We make waves<br/>
-                <a href="" class="link">Explore All Ads</a>
+                <a href="/services" class="link">Explore All Ads</a>
                 </div>
                 <div class="project-right">
                     <div ><img class="box" src={post1} alt=""/></div>
@@ -21,8 +21,8 @@ const Project = () => {
                 </div>
             </div>
             <div className="project-end">
-                <div style={{fontSize:"4.036vw"}}>Ready For Your Project</div>
-                <a href="">Get in Touch</a>
+                <div style={{fontSize:"4.036vw"}}>Ready For Your Project?</div>
+                <a href="/contact">Get in Touch</a>
             </div>
         </div>
     );
