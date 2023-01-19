@@ -134,9 +134,13 @@ form .buttonR input:hover {
   /* transform: scale(0.99); */
   background: linear-gradient(-135deg, #7202bb, #7525e2);
 }
-@media (max-width: 584px) {
+@media (max-width: 786px) {
+  .Registmain {
+    width: 100%;
+  }
   .containerR {
-    max-width: 100%;
+    max-width: 90%;
+    height: 700px;
   }
   form .user-detailsR .input-boxR {
     margin-bottom: 15px;
@@ -153,7 +157,7 @@ form .buttonR input:hover {
     width: 5px;
   }
 }
-@media (max-width: 459px) {
+@media (max-width: 786px) {
   .containerR .contentR .category {
     flex-direction: column;
   }
