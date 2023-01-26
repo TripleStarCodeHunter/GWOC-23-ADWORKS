@@ -16,8 +16,7 @@ We have used React.JS, Material UI and Bootstrap to build this website. The work
 This project is based on the company ADWorks which is mainly involved in digital marketing and was made for the Google Winter of Code challenge hosted by the GDSC club of our college, Sardar Vallabhbhai National Institute of Technology, Surat, Gujarat, India.
 
 Visit the website on : https://adworks-tempest.netlify.app/  
-View the demo video : https://drive.google.com/file/d/1NnwKi7DSWUcXgyEf98HcrxTiHI-enM1l/view?usp=sharing
-
+  
 Alternatively, you could run it on your computer  
 
 How to run the website on your local computer?   
